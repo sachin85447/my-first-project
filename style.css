@@ -1,0 +1,334 @@
+* {
+    padding: 0px;
+    margin: 0%;
+}
+
+.message {
+    position: absolute;
+    top: 260px;
+    left: 150px;
+    font-size: 60px;
+    color: aliceblue;
+    font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
+    ;
+}
+
+.imagemov {
+    position: absolute;
+    left: 670px;
+    top: 120px;
+}
+
+.imagecup {
+    position: absolute;
+    left: 600px;
+    top: 150px;
+}
+
+.mrecord {
+    position: absolute;
+    width: 350px;
+    left: 670px;
+    top: 280px;
+}
+
+.mpic {
+    position: absolute;
+    width: 350px;
+    left: 670px;
+    top: 340px;
+}
+
+.message2 {
+    position: absolute;
+    width: 350px;
+    left: 670px;
+    top: 600px;
+}
+
+.bthover {
+    margin-left: 30px;
+    width: 130px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: #25d366;
+    ;
+    margin-top: 10px;
+}
+
+.bthover:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+.hover2 {
+    margin-left: 30px;
+    width: 130px;
+    height: 50px;
+    border: 1px solid #25d366;
+    border-radius: 30px;
+    background-color: #25d366;
+    ;
+    margin-bottom: 10px;
+}
+
+.hover2:hover {
+    background-color: rgb(254, 253, 253);
+    color: rgb(24, 24, 24);
+}
+
+.imagemov {
+    animation-name: EEE;
+    animation-duration: 1s;
+    animation-delay: 1S;
+   animation-fill-mode: forwards;
+   opacity: 0;
+}
+
+@keyframes EEE {
+    0% {
+        opacity: 1;
+        transform: translateY(100px);
+      
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.imagecup {
+    animation-name: cup;
+    animation-duration: 1s;
+    animation-delay: 2s;
+   animation-fill-mode: forwards;
+   opacity: 0;
+}
+
+@keyframes cup {
+    0% {
+        opacity: 2;
+        transform: translateY(100px);
+      
+    }
+    100% {
+        opacity: 2;
+        transform: translateY(0px);
+    }
+}
+.mrecord {
+    animation-name: record;
+    animation-duration: 1s;
+    animation-delay: 3s;
+   animation-fill-mode: forwards;
+   opacity: 0;
+}
+
+@keyframes record {
+    0% {
+        opacity: 3;
+        transform: translateY(100px);
+      
+    }
+    100% {
+        opacity: 3;
+        transform: translateY(0px);
+    }
+}
+.mpic {
+    animation-name:  message;
+    animation-duration: 1s;
+    animation-delay: 4s;
+   animation-fill-mode: forwards;
+   opacity: 0;
+}
+
+@keyframes message {
+    0% {
+        opacity: 4;
+        transform: translateY(100px);
+      
+    }
+    100% {
+        opacity: 4;
+        transform: translateY(0px);
+    }
+}
+.message2 {
+    animation-name:  message2;
+    animation-duration: 1s;
+    animation-delay: 5s;
+   animation-fill-mode: forwards;
+   opacity: 0;
+}
+
+@keyframes message2 {
+    0% {
+        opacity: 5;
+        transform: translateY(100px);
+      
+    }
+    100% {
+        opacity: 5;
+        transform: translateY(0px);
+    }
+}
+.amp {
+    animation-name:  aniamp;
+    animation-duration: 1s;
+    animation-delay: 6s;
+   animation-fill-mode: forwards;
+   opacity: 0;
+}
+
+@keyframes aniamp {
+    0% {
+        opacity: 6;
+        transform: translateY(100px);
+      
+    }
+    100% {
+        opacity: 6;
+        transform: translateY(0px);
+    }
+}
+.policy {
+    animation-name:  licy;
+    animation-duration: 1s;
+    animation-delay: 7s;
+   animation-fill-mode: forwards;
+   opacity: 0;
+}
+
+@keyframes licy {
+    0% {
+        opacity: 6;
+        transform: translateY(100px);
+      
+    }
+    100% {
+        opacity: 6;
+        transform: translateY(0px);
+    }
+}
+.scontent{
+    animation-name:  tent;
+    animation-duration: 1s;
+    animation-delay: 8s;
+   animation-fill-mode: forwards;
+   opacity: 0;
+}
+
+@keyframes tent {
+    0% {
+        opacity: 6;
+        transform: translateY(100px);
+      
+    }
+    100% {
+        opacity: 6;
+        transform: translateY(0px);
+    }
+}
+
+.speak{
+    animation-name:  tent;
+    animation-duration: 1s;
+    animation-delay: 1s;
+   animation-fill-mode: forwards;
+   opacity: 0;
+}
+
+@keyframes tent {
+    0% {
+        opacity: 6;
+        transform: translateY(100px);
+      
+    }
+    100% {
+        opacity: 6;
+        transform: translateY(0px);
+    }
+}
+
+
+.freely{
+    animation-name:  tent;
+    animation-duration: 1s;
+    animation-delay: 1s;
+   animation-fill-mode: forwards;
+   opacity: 0;
+}
+
+@keyframes tent {
+    0% {
+        opacity: 6;
+        transform: translateY(100px);
+      
+    }
+    100% {
+        opacity: 6;
+        transform: translateY(0px);
+    }
+}
+
+.with{
+    animation-name:  tent;
+    animation-duration: 1s;
+    animation-delay: 1s;
+   animation-fill-mode: forwards;
+   opacity: 0;
+}
+
+@keyframes tent {
+    0% {
+        opacity: 6;
+        transform: translateY(100px);
+      
+    }
+    100% {
+        opacity: 6;
+        transform: translateY(0px);
+    }
+}
+
+
+.more{
+    animation-name:  tent;
+    animation-duration: 1s;
+    animation-delay: 1s;
+   animation-fill-mode: forwards;
+   opacity: 0;
+}
+
+@keyframes tent {
+    0% {
+        opacity: 6;
+        transform: translateY(100px);
+      
+    }
+    100% {
+        opacity: 6;
+        transform: translateY(0px);
+    }
+}
+
+.hola{
+    animation-name:  tent;
+    animation-duration: 1s;
+    animation-delay: 8s;
+   animation-fill-mode: forwards;
+   opacity: 0;
+}
+
+@keyframes tent {
+    0% {
+        opacity: 6;
+        transform: translateY(100px);
+      
+    }
+    100% {
+        opacity: 6;
+        transform: translateY(0px);
+    }
+}

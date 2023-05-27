@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="200px, initial-scale=2.0">
+    <title>whatsapp.com</title>
+    <link rel="icon" href="https://tse3.mm.bing.net/th?id=OIP.q7Sgo6Jqn4u_jEqe-oQbTwHaH8&pid=Api&P=0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/042d05c8ea.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<style>
+    body {
+        background-color: cornsilk;
+    }
+   
+
+    .main { 
+        position: fixed;
+        z-index: 1;
+        top: 0px;
+    }
+
+    .main ul {
+        background-color: cornsilk;
+        width:2000px ;
+        display: flex;
+        list-style: none;
+        height: 70px;
+        line-height: 70px;
+        text-align: center;
+        font-size: 15px;
+    
+
+    }
+    .main:hover{border-bottom: 1px solid black;}    
+
+    ul li {
+
+        text-align: center;
+        position: relative;
+    }
+
+    ul .margn {
+        margin-left: 230px;
+        text-align: center;
+    }
+
+    .main ul .mg:after {
+        content: "";
+        position: absolute;
+        background-color: #25d366;
+        height: 3px;
+        width: 0;
+        left: 0;
+        transition: 0.6s;
+        top: 50PX;
+    }
+
+    .main ul .mg:hover:after {
+        width: 60px;
+    }
+
+    .main ul .margn::after {
+        content: "";
+        position: absolute;
+        background-color: #25d366;
+        height: 3px;
+        width: 0;
+        left: 0;
+        transition: 0.6s;
+        TOP: 50PX
+    }
+
+    .main ul .margn:hover::after {
+        width: 50px;
+    }
+
+    img {
+        margin-top: 12px;
+    }
+
+    .mg {
+        margin-left: 60px;
+    }
+
+    .nbox {
+        margin-left: 35px;
+        margin-top: 70px;
+    }
+
+    .nbox img {
+        border-radius: 20px;
+        position: relative;
+        width: 1150px;
+    }
+    .policy{ margin-left: 350px; font-weight: 400; font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;font-size: 32px;}
+    .policy::after{content: "Where they are"; margin-left: 200px;}
+    .policy::selection{background-color: #25d366; color: black;}
+    .message::selection{background-color: #25d366; color: black;}
+    .calls{position: relative;}
+    h2{ position: absolute; font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 45px; font-weight: 400; top: 180px; left: 150px;}
+    .vidio{position: absolute;left: 150px; font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 400;font-size: 16px; word-spacing: normal; top: 400px;}
+    .endtoend{position: absolute;right: 280px;width: 270px;top: 50px;}
+    .learn{position: absolute; top: 480px; left: 150px; border-bottom: 3px solid  #25d366; font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;}
+    .learn:hover{color: #25d366;}
+    .anika{width: 99.9%; height: 700px; border: 1px solid black;  background-color: #1c1e21; position: relative;top:650px;}
+    .speak{position: absolute; color: aliceblue; left: 700px;font-size: 50px; font-family:  Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 400; top: 250px;}
+    .freely{position: absolute; color: rgb(23, 190, 73); left: 705px;font-size: 50px; font-family:  Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 300; top: 300px;}
+    .with{color: aliceblue; position: absolute; left: 705px; top: 385px; font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif  ;white-space: 1px;}
+    .more{position: absolute; color: aliceblue; left: 705px;top: 480px; border-bottom:3px solid #25d366; font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;}
+    .more:hover{color: #25d366;}
+    .groups{width: 99.9%; height: 500px;  position: relative; top:700px ;}
+    .keep{font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 400; position: absolute; top: 150px;left: 200px; font-size: 50px; color: #1c1e21; letter-spacing: -1px; word-spacing: -1px;}
+    .effort{font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 300; position: absolute; top: 280px;left: 200px; font-size: 18px; color: #1c1e21; letter-spacing: 1px; word-spacing: -1px;}
+    .more2{position: absolute; color: rgb(17, 19, 20); left: 200px;top: 360px; border-bottom:3px solid #25d366; font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;}
+    .more2:hover{color: #25d366;}
+    .again{ position: absolute; left: 800px; width: 300px;}
+    .omg{position: absolute; left: 780px; width: 350px; top: 100px;}
+    .group2{width: 99.9%; height: 500px;  position: relative; top:900px ; }
+    .png8{ position: absolute; left: 200px; width: 300px;}
+    .youfeel{font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 400; position: absolute; top: 150px;left: 700px; font-size: 50px; color: #1c1e21; letter-spacing: -1px; word-spacing: -1px;}
+    .express{font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 300; position: absolute; top: 280px;left: 700px; font-size: 15px; color: #1c1e21; letter-spacing: 1px; word-spacing: -1px;}
+    .more3{position: absolute; color: rgb(17, 19, 20); left: 700px;top: 360px; border-bottom:3px solid #25d366; font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 15px;}
+    .more3:hover{color: #25d366;}
+    .pebble{width: 290px; position: absolute; left: 200px; top: 150px;}
+    .transform{width: 99.9%; height: 500px;  position: relative; top:1150px ;}
+    .business{font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 400; position: absolute; top: 295px;left: 200px; font-size: 18px; color: #1c1e21; letter-spacing: 1px; word-spacing: -1px;}
+    .bussiness2{font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 400; position: absolute; top: 180px;left: 200px; font-size: 45px; color: #1c1e21; letter-spacing: -1px; word-spacing: -1px;}
+    .more4{position: absolute; color: rgb(17, 19, 20); left: 200px;top: 400px; border-bottom:3px solid #25d366; font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 15px;}
+    .more4:hover{color: #25d366;}
+    .image10{ position: absolute; left: 800px; top: 0px; width: 290px;}
+    
+    .box{background-color:#E6FFDA;width:100%; height: 550px; ;position: relative; top: 1350px; border-bottom-left-radius: 50px;}
+    .withus{font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 400; position: absolute; top: 100px;left: 200px; font-size: 50px; color: #1c1e21; letter-spacing: -1px; word-spacing: -1px;}
+    .box2{ width: 400px;height: 300px;background-color: #FFFFFF; border: 1px solid rgb(245, 242, 242); border-radius: 3px; position: absolute;top: 80px; left: 700px; border-radius: 20px;}
+    .edit{font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 500; position: absolute; top: 150px;left: 750px; font-size: 25px; color: #1c1e21; letter-spacing: 1px; word-spacing: 1px; letter-spacing: -1px;}
+    .mistake{font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 400; position: absolute; top: 220px;left: 750px; font-size: 15px; color: #1c1e21; letter-spacing: -1px; word-spacing: -1px;}
+    .more5{position: absolute;left: 750px; top: 300px; width: 100px; height: 40px; border-radius: 50px; border: 1px solid black;}
+    .more5:hover{background-color: black; color: white;}
+    .next{ width: 45px; height: 45px; border-radius: 100%; position: absolute; top: 400px; left: 200px; font-size: 25px; border:1px solid #1c1e21; font-weight: 100;}
+    .privious{ width: 45px; height: 45px; border-radius: 100%; position: absolute; top: 400px; left: 270px; font-size: 25px; border:1px solid #1c1e21; font-weight: 100;}
+    .next:hover{background-color: black; color: #FFFFFF;}
+    .privious:hover{background-color: black; color: #FFFFFF;}
+    .logo12{position: absolute; left: 750px; top: 100px; z-index: 1; width: 100px ;}
+    .services{width: 100%; height: 500px; background-color:  #1c1e21; position:relative; top: 1300px; z-index: -1; border-bottom-right-radius: 30px;}
+    .lastpng{ position: absolute;top: 130px; left: 200px; width: 150px;}
+    .hoverlast {
+   position: absolute;
+   top: 270px;
+   left: 200px;
+    width: 140px;
+    height: 45px;
+    border: 1px solid #25d366;
+    border-radius: 30px;
+    background-color: #25d366;
+    ;
+    margin-bottom: 10px;
+}
+
+.hoverlast:hover {
+    background-color: rgb(254, 253, 253);
+    color: rgb(24, 24, 24);
+}
+.list1{position: absolute; top: 140px; left: 450px;}
+.workhard{ font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;  color: #E6FFDA; font-size: 13px;margin-bottom: 25px; list-style: none;}
+#lastli{ font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif; color: #E6FFDA; margin-bottom: 20px; list-style: none;}
+#lastli:hover{border-bottom: 1px solid #FFFFFF; width: 80px;}
+
+.list2{position: absolute; top: 140px; left: 605px;}
+.human{ font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;  color: #E6FFDA; font-size: 13px;margin-bottom: 25px; list-style: none;}
+#lastli2{ font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif; color: #E6FFDA; margin-bottom: 20px; list-style: none;}
+#lastli2:hover{border-bottom: 1px solid #FFFFFF; width: 80px;}
+
+.list3{position: absolute; top: 140px; left: 760px;}
+.sometime{ font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;  color: #E6FFDA; font-size: 13px;margin-bottom: 25px; list-style: none;}
+#lastli3{ font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif; color: #E6FFDA; margin-bottom: 20px; list-style: none;}
+#lastli3:hover{border-bottom: 1px solid #FFFFFF; width: 80px;}
+
+.list4{position: absolute; top: 140px; left: 910px;}
+.ok{ font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;  color: #E6FFDA; font-size: 13px;margin-bottom: 25px; list-style: none;}
+#listli4{ font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif; color: #E6FFDA; margin-bottom: 20px; list-style: none;}
+#listli4:hover{border-bottom: 1px solid #FFFFFF; width: 80px;}
+
+.lastwork{position: absolute; top: 450px; left: 200px;}
+.lastwork2{color: whitesmoke; font-size: 11px;}
+
+.lastwork1{position: absolute; top: 430px; left: 490px; display: flex; list-style: none; }
+#socialsite{margin-left: 45px; font-size: 30px; border: 1px solid black; width: 40px; height: 40px; border-radius: 20px; line-height: 40px; text-align: center;}
+#socialsite:hover{background-color: #25d366;}
+.finish{position: absolute; top: 448px; left: 190px;}
+.lastline2{position: absolute; top: 400px; left: 200px;}
+.finish2{border-bottom:1px solid #25d366; width: 830px;}
+
+.buttonclear{position: absolute; top: 430px; left: 890px;}
+select{width: 150px;height: 40px; border-radius: 50px; background-color: #1c1e21; color: #FFFFFF; font-size: 20px; font-weight: 400; border: 2px solid white;}
+
+
+</style>
+
+<nav  class="main">
+        <ul>
+            <li><img src="whatsapp1image.png" width="110px" height="30px"
+                    style="margin-left: 30px;">
+            </li>
+            <li class="margn ">Features<i class="fa-solid fa-caret-down" style="margin-left: 3PX;"></i></li>
+            <li class="mg">Privacy</li>
+            <li class="mg">Help center</li>
+            <li class="mg">Blog</li>
+            <li class="margn">Bussiness</li>
+            <button class="bthover">Download<i class="fa-solid fa-arrow-down" style="margin-left: 10px;"></i></button>
+        </ul>
+    </nav>
+
+    <div class="nbox"> <img src="image1.png"
+            width="100%"> </div>
+    <div class="message">Message<br> privately <h6 style="font-size: 15px;">Simple, reliable, private messaging and
+            <br>calling for free*, available all over the<br> world.</h6>
+        <button class="hover2">Download</button>
+    </div>
+    <div class="imagemov"><img
+            src="image2.png"
+            width="350px" > </div>
+    <img src="image3.png"
+        class="imagecup">
+
+    <img src="image4.png"
+        class="mrecord">
+    <img src="image5.png"
+        class="mpic">
+    <img src="trip.png"
+        class="message2">
+    <img src="hallo.png"
+        width="100%" class="amp">
+    <h1 class="policy">With private messaging and calling, you can<br> be yourself, speak freely and feel close to the<br> most important people in your life no matter<br></h1>
+    <img src="hola.png" width="100%" class="hola">
+
+    <div class="calls"><h2> Never miss a<BR> moment with<br> voice and video<br> calls</h2> 
+        <p class="vidio">From a group call to classmates to a quick call with mom,<br> feel like you’re in the same room with voice and video<br> calls.</p>
+        <img src="south.png" class="endtoend">
+        
+        <p class="learn">Learn more > </p>
+    </div>
+ <div class="anika"> 
+    <img src="speak.png" width="420px" style="margin-top: 130px; margin-left: 200px;">
+    <h1 class="speak"> Speak</h1>
+    <h3 class="freely"> freely</h3>
+    <P class="with">With end-to-end encryption, your personal messages and<br> calls are secured. Only you and the person you're talking <br>to can read or listen to them, and nobody in between, not<br> even WhatsApp.</P>
+    <p class="more">Learn more ></p>
+
+ 
+</div>
+<div class="groups"> 
+    <h1 class="keep">Keep in touch<br>
+        with your groups</h1>
+      
+        <p class="effort">Whether it's planning an outing with friends or simply <br>staying on top of your family chats, group conversations<br> should feel effortless.</p>
+        <p class="more2">Learn more ></p>
+        <img src="again.png" class="again">
+        <img src="omg6.png" class="omg">
+</div>
+<div class="group2">  
+    <img src="image8.png" class="png8">
+    <h class="youfeel">Say what <br>you feel</h>
+    <p class="express">Express yourself without words. Use stickers and GIFs or <br>share everyday moments on Status. Record a voice <br>message for a quick hello or a longer story.</p>
+    <p class="more3">Learn more ></p>
+    <img src="image9.png" class="pebble">
+
+
+</div>
+<div class="transform"> 
+    <h1 class="bussiness2">Transform<br>
+        your business</h1>
+    <h1 class="business">WhatsApp Business helps you reach your customers <br>globally to deliver compelling experiences at scale. <br>Showcase your products and services, increase sales,<br> and build relationships all with WhatsApp.</h1>
+    <p class="more4">Learn more ></p>
+<img src="image10.png" class="image10">
+</div>
+
+<div class="box"> 
+    <h1 class="withus">Connect with us </h1>
+    <p class="logo12"><i class="fa-brands fa-whatsapp"></i></p>
+    <div class="box2"></div>
+    <h2 class="edit">Now you can edit your<br> WhatsApp messages</h2>
+    <p class=" mistake">For the moments when you make a mistake, or simply<br> change your mind, you can now edit your sent<br> messages.
+
+    </p>
+    <button class="more5">Read more</button>
+    <button class="next"><</button>
+    <button class="privious"> ></button>
+</div>
+<div class=" services">
+    <img src="logolast.png" class="lastpng">
+    <button class="hoverlast">Download</button>
+
+    <div class="list1">
+        <li class="workhard"> what we do</li>
+        <li id="lastli">Features</li>
+        <li id="lastli">Blog</li>
+        <li id="lastli">Stories</li>
+        <li id="lastli">For-Bussiness</li>
+
+    </div>
+    
+    <div class="list2">
+        <li class="human">who we are</li>
+        <li id="lastli2">About us</li>
+        <li id="lastli2">Careers</li>
+        <li id="lastli2">Brand-center</li>
+        <li id="lastli2">Privacy</li>
+    </div>
+    <div class="list3">
+        <li class="sometime">use whatsapp</li>
+        <li id="lastli3">Android</li>
+        <li id="lastli3">iPhone</li>
+        <li id="lastli3">MAC/PC</li>
+        <li id="lastli3">Whatsapp-web</li>
+    </div>
+   <div class="list4">
+       <li class="ok"> need help?</li>
+       <li id="listli4">Contact-us</li>
+       <li id="listli4">Help-center</li>
+       <li id="listli4">Cronavirus</li>
+       <li id="listli4">Security</li>
+     </div>
+     <div class="lastwork">
+        <p class="lastwork2">2023 © WhatsApp LLC  </p>
+     </div>
+
+     <div class="finish"><section style="margin-left: 180px; margin-top: 0px; color: #FFFFFF; font-size: 13px;">term of services</section></div>
+     <div class="lastwork1">
+        <li id="socialsite"><i class="fa-brands fa-square-twitter"></i></li>
+        <li id="socialsite"><i class="fa-brands fa-youtube"></i></li>
+        <li id="socialsite"><i class="fa-brands fa-square-instagram"></i></li>
+        <li id="socialsite"><i class="fa-brands fa-facebook"></i></li>
+     </div>
+     <div class="lastline2"> 
+        <p class="finish2"></p>
+     </div>
+     <div class="buttonclear">
+        <select name="Language" id="cars">
+            <option value="English">Japanese</option>
+            <option value="Hindi">Hindi</option>
+            <option value="italian">Italiano</option>
+            <option value="Chinese">Chinese</option>
+            <option value="italian">Turkish</option>
+            <option value="Chinese">Filipino</option>
+          </select>
+     </div>
+     </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
